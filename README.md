@@ -5,3 +5,4 @@ Vagrant ssh,
 sudo mysql,
 use test,
 select * from users.
+
