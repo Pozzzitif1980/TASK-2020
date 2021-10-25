@@ -1,8 +1,3 @@
-Завантажити Vagrantfile та bootstrap.sh,
+Завантажити Vagrantfile та bootstrap.sh,script.sh
 Завантажити дамп test.sql,
-Vagrant up,
-Vagrant ssh,
-sudo mysql,
-use test,
-select * from users.
-
+Vagrant up.
