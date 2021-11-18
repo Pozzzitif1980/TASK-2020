@@ -16,13 +16,13 @@
    while ($row = $result->fetch_assoc())
    {
        
-       echo 'ID'.$row['Id'];
-       echo 'Username'.$row['Username'];
-       echo 'Email' .$row['Email'];
-       echo 'Password' .$row['Password'];
-       echo 'Role' .$row['Role'];
-       echo 'Created' .$row['Created'];
-       echo 'Updated' .$row['Updated'];
+       echo "" . $row["Id"]. "<br>";
+       echo "Username: " . $row["Username"]. "<br>";
+       echo "Email: " . $row["Email"]. "<br>";
+       echo "Password: " . $row["Password"]. "<br>";
+       echo "Role: " . $row["Role"]. "<br>";
+       echo "Created: " . $row["Created"]. "<br>";
+       echo "Updated: " . $row["Updated"]. "<br>";
    }
 ?>
 </body>
