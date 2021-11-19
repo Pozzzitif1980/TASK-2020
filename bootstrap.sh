@@ -9,4 +9,5 @@ systemctl restart apache2
 mysql < /vagrant/files/script2.sql
 mysql < /vagrant/files/script.sql
 mysql < /vagrant/files/base.sql
+cp /vagrant/html/connect.php /var/www/html
 cp /vagrant/html/users.php /var/www/html
