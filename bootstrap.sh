@@ -6,7 +6,6 @@ apt install -y mysql-server
 apt install -y php libapache2-mod-php
 apt install -y php-mysql
 systemctl restart apache2
-mysql < /vagrant/files/script2.sql
 mysql < /vagrant/files/script.sql
 mysql < /vagrant/files/base.sql
 cp /vagrant/html/connect.php /var/www/html
