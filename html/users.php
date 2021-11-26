@@ -30,7 +30,7 @@ require_once 'connect.php';
             <th>Password</th>
             <th>Role</th>
             <th>Created</th>
-            <th>Update</th>
+            <th>Updated</th>
         </tr>
         <?php
         $users = mysqli_query($connect, "SELECT * FROM `users`");
